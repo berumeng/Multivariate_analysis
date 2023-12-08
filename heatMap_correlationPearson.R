@@ -5,7 +5,7 @@ library(gplots)
 library (RColorBrewer)
 
 ##Establecer la carpeta de trabajo
-setwd("/home/fungimike/Documentos/Practica_HTSeq_RSEM/HTSeq")
+setwd("Ruta/de/trabajo")
 
 ##cargar el set de datos con nivles de expresión normalizados a cpm
 counts = read.table ("cpm_Ot6735.txt", header=TRUE, row.names=1)
