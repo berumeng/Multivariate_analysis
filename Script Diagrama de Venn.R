@@ -1,6 +1,6 @@
 ##DIAGRAMA DE VENN##
 
-###Se realiz? un estudio fitoqu?mico cualitativo de 59 cultivos del estado de Nayarit. Se recolectaron cereales, frutos, hortalizas. Posteriormente, se realizaron pruebas rapidas para identificar compuestos por precipitaci?n o cambio de color.Los an?lisis cualitativos 
+###Se realizo un estudio fitoquimico cualitativo de 59 cultivos del estado de Nayarit. Se recolectaron cereales, frutos, hortalizas. Posteriormente, se realizaron pruebas rapidas para identificar compuestos por precipitaci?n o cambio de color.Los an?lisis cualitativos 
 #fueron: fenoles, taninos, alcaloides y flavonoides.Todas las determinaciones se llevaron a cabo por triplicado y los resultados obtenidos se expresaron como: positivo (1) y negativo (0).##
 
 
@@ -9,7 +9,7 @@ install.packages("VennDiagram")
 library(VennDiagram)
 
 ##CARGAR DATOS
-setwd("/Users/berumen/Desktop/")
+setwd("Ruta/de/trabajo")
 
 d <- read.csv("CUALITATIVOS DIAGRAMA DE VENN.csv")
 
