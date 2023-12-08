@@ -4,7 +4,7 @@ library(gplots)
 library (RColorBrewer)
 
 ##Establecer la carpeta de trabajo
-setwd("/Users/berumen/Desktop/UAN/Clases/Posgrado/CBAP/2020/Análisis_visualización_datos_R/R_script/PCA_CA_clusterplot/")
+setwd("Ruta/de/trabajo")
 ##cargar el set de datos con nivles de expresión normalizados a cpm
 Table1 = read.table("Heatmap conF.txt", header=TRUE, row.names=1)
 head(Table1)
