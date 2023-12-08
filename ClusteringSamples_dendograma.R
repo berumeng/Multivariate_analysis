@@ -1,5 +1,5 @@
 ##Establecer la carpeta de trabajo
-setwd("/Users/berumen/Desktop/UAN/Clases/Posgrado/CBAP/2020/Análisis_visualización_datos_R/R_script/Dendograma")
+setwd("Ruta/de/trabajo")
 
 #Cluster dendograma
 counts = read.table ("expLevels_frijol_MK.txt", header=TRUE, row.names=1)
