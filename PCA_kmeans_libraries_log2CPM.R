@@ -3,7 +3,7 @@
 library("cluster")
 
 ##Establecer la carpeta de trabajo
-setwd("/Users/berumen/Desktop/Análisis_visualización_datos_R/R_script/Clusterplot/")
+setwd("Ruta/de/trabajo")
 
 ##cargar el set de datos
 counts = read.table ("expLevels_frijol_MK.txt", header=TRUE, row.names=1)
